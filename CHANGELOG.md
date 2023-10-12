@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/MrMint/release-please-branching-test/compare/v1.2.1...v1.2.2) (2023-10-12)
+
+
+### Bug Fixes
+
+* CI ([1635092](https://github.com/MrMint/release-please-branching-test/commit/1635092a9f62d536a2548ba6695b43f8ec273bb4))
+
 ## [1.2.1](https://github.com/MrMint/release-please-branching-test/compare/v1.2.0...v1.2.1) (2023-10-12)
 
 
