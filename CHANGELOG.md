@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/MrMint/release-please-branching-test/compare/v1.1.0...v1.2.0) (2023-10-12)
+
+
+### Features
+
+* 14 ([e7242f1](https://github.com/MrMint/release-please-branching-test/commit/e7242f159b8510bce0bc78ab5ef8f7c440675a1b))
+
+
+### Bug Fixes
+
+* rp ([ad01f9a](https://github.com/MrMint/release-please-branching-test/commit/ad01f9a55415a9f6da0a9a34e477df67883a9240))
+
 ## [1.1.0](https://github.com/MrMint/release-please-branching-test/compare/v1.0.0...v1.1.0) (2023-10-12)
 
 
