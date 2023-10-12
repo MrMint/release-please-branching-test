@@ -1,2 +1,2 @@
 # release-please-branching-test
-- Test 1
+- Test 2
