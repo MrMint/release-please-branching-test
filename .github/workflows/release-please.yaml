@@ -19,11 +19,12 @@ jobs:
           release-type: node
           package-name: cellar-assistant
       - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs.releases_created }}
       - name: Deploy Prod
         if: ${{ steps.release.outputs.releases_created }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git checkout production
+          git checkout origin/production
           git merge --ff-only GITHUB_SHA
           git push
