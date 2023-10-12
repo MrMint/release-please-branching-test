@@ -20,7 +20,6 @@ jobs:
           package-name: cellar-assistant
       - uses: actions/checkout@v4
       - name: Deploy Prod
-        uses: actions/checkout@v4
         if: ${{ steps.release.outputs.releases_created }}
         run: |
           git config user.name github-actions
