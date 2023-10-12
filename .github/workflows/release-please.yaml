@@ -20,6 +20,8 @@ jobs:
           package-name: cellar-assistant
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.releases_created }}
+        with:
+          fetch-depth: 100
       - name: Deploy Prod
         if: ${{ steps.release.outputs.releases_created }}
         run: |
