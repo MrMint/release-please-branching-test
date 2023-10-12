@@ -26,6 +26,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git fetch origin production
-          git checkout origin/production
+          git checkout production
           git merge --ff-only ${{ github.sha }}
           git push
