@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/MrMint/release-please-branching-test/compare/v1.2.0...v1.2.1) (2023-10-12)
+
+
+### Bug Fixes
+
+* asdfsdf ([b0823e4](https://github.com/MrMint/release-please-branching-test/commit/b0823e45018946babf36dddebcaccc3d458cf356))
+
 ## [1.2.0](https://github.com/MrMint/release-please-branching-test/compare/v1.1.0...v1.2.0) (2023-10-12)
 
 
