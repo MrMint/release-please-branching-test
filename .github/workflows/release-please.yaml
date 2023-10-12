@@ -19,6 +19,7 @@ jobs:
           release-type: node
           package-name: cellar-assistant
       - name: Deploy Prod
+        uses: actions/checkout@v4
         if: ${{ steps.release.outputs.releases_created }}
         run: |
           git checkout production
